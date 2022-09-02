@@ -7,12 +7,16 @@
 
 import UIKit
 import SnapKit
+import Alamofire
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        AF.request("https://pokeapi.co/api/v2/pokemon/charmander").response { response in
+            debugPrint(response)
+        }
         
         let box = UIView()
         box.backgroundColor = UIColor.black
@@ -23,7 +27,5 @@ class ViewController: UIViewController {
             make.edges.equalTo(self.view)
         }
     }
-
-
 }
 

@@ -48,7 +48,6 @@
 				75F735E759EFEFE8E2A1FD0B /* Pods-Mock_Application.debug.xcconfig */,
 				F1C29DF08EDCBAAD430A11D5 /* Pods-Mock_Application.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -357,6 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393TVJ5AAG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mock_Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -385,6 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393TVJ5AAG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mock_Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
